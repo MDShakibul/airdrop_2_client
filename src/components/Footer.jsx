@@ -1,8 +1,12 @@
 import { Link } from 'react-router';
+import Timer from './Timer';
 
 const Footer = () => {
     return (
         <footer className="container mx-auto footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4">
+            <aside className="grid-flow-col items-center">
+                <Timer />
+            </aside>
             <aside className="grid-flow-col items-center">
                 <svg
                     width="36"
